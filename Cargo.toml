@@ -1,13 +1,13 @@
 [package]
 name = "pilot_test"
-version = "0.0.1"
+version = "0.3.0"
 authors = ["Daniel Amesberger <daniel.amesberger@amescon.com>"]
 license = "ISC"
-edition = "2018"
-repository = "https://gitlab.com/pilot-automation/nexus/pilot_test"
+edition = "2021"
+repository = "https://github.com/pilotnexus/pilot_test.git"
 
 [dependencies]
-futures = { version = "0.3.5", default-features = false, features = ["async-await"] }
-pilot_sys = { git = "https://gitlab.com/pilot-automation/nexus/pilot_sys" }
-pilot_macro = { git = "https://gitlab.com/pilot-automation/nexus/pilot_macro" }
+futures = { version = "0.3.21", default-features = false, features = ["async-await"] }
+pilot_sys = { git = "https://github.com/pilotnexus/pilot_sys.git" }
+pilot_macro = { git = "https://github.com/pilotnexus/pilot_macro.git" }
 
